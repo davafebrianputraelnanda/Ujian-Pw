@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            border-color:chartreuse;
+        }
+        label{
+            font-weight: bold;
+        }
+        .form-container{
+            text-align: right;
+            font-weight: bold;
+            background-color:aquamarine;
+            padding: 2em;
+            border: 2px solid yellow;
+            border-radius: 5px;
+            box-shadow: 0 0 10px black;
+            width: 500px;
+            height: 540px;
+            margin: 50px auto;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:blanchedalmond;
+        }
+        .from-grup{
+            text-align: left;
+            margin-top: 20px;
+        }
+        .js{
+            text-align: left;
+            font-weight: bold;
+            margin-top: 20px ;
+        }
+        .yu {
+            background-color: blue;
+            box-shadow: 4px 3px 2px black;
+            color:antiquewhite;
+            border: none;
+            border-radius: 3px;
+            padding: 7px 10px;
+            cursor: pointer;
+            margin-left: 7em;
+        }
+        .yo {
+            background-color:green;
+            box-shadow: 4px 3px 2px black;
+            color:antiquewhite;
+            border: none;
+            border-radius: 3px;
+            padding: 7px 10px;
+            cursor: pointer; 
+        }
+        .ye {
+            background-color: red;
+            box-shadow: 4px 3px 2px black;
+            color:antiquewhite;
+            border: none;
+            border-radius: 3px;
+            padding: 7px 10px;
+            cursor: pointer; 
+        }
+        .akhir{
+            text-align: left;
+            margin-top: 15px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+        <div class="form-container">
+                <tr>
+                    <td>Home ></td>
+                    <td>Admin ></td>
+                    <td>Kelola mesjid</td>
+                    </tr>
+                 <form action="">
+                <fieldset>    
+                 <div class="from-grup">
+                      <label for="nama mesjid">Nama Mesjid</label>
+                     <textarea name="nama mesjid" id="nama mesjid" cols="45" rows="1"></textarea>
+                      </div>
+    
+                 <div class="js">
+                    <tr>
+                        <td>Kecamatan</td>
+                     <select>
+                         <option value="bj">Pilih Kecamatan</option>
+                         <option value="dr">Dramaga</option>
+                         <option value="cm">Ciampea</option>
+                         <option value="lw">Leuwiliang</option>
+                     </select>
+                    </tr>
+                    <tr>
+                        <td>Kelurahan</td>
+                     <select>
+                     <option value="kk">Pilih kelurahan</option>
+                     <option value="pt">Petir</option>
+                     <option value="ch">Ciherang</option>
+                     <option value="pw">Purwasari</option>
+                     </select>
+                    </tr>
+                </div>
+                <div class="from-grup">
+                        <label for="df">Deskripsi fasilitas</label>
+                        <textarea name="Deskripsi fasilitas" id="Deskripsi fasilitas" cols="40" rows="2"></textarea>
+                </div>
+                <div class="from-grup">
+                         <label for="npd">Nama Pengurus DKM</label>
+                         <textarea name="Nama Pengurus DKM" id="Nama Pengurus DKM" cols="25" rows="1"></textarea>
+                </div>
+                <div class="from-grup">
+                        <label for="nt">NO HP/Telepon</label>
+                        <textarea name="NO HP/Telepon" id="NO HP/Telepon" cols="25" rows="1"></textarea>
+                </div>
+                <div class="from-grup">
+                        <label for="Email">Email</label>
+                        <textarea name="Email" id="Email" cols="25" rows="1"></textarea>
+                </div>
+                <div class="from-grup">
+                        <label for="aw">Alamat WEB</label>
+                        <textarea name="Alamat WEB" id="Alamat WEB" cols="30" rows="1"></textarea>
+                </div>
+                <div class="from-grup">
+                        <label for="al">Alamat lengkap</label>
+                        <textarea name="Alamat lengkap" id="Alamat lengkap" cols="40" rows="2"></textarea>
+                </div>
+                <div class="from-grup">
+                        <label for="ll">Latitude, Longtitude</label>
+                        <textarea name="Latitude, Longtitude" id="Latitude, Longtitude" cols="25" rows="1"></textarea>
+                </div>
+                <div class="akhir">
+                        <button type="submit" class="yu">Simpan</button>
+                        <button type="update" class="yo">Update</button>
+                        <button type="reset" class="ye">Hapus</button>
+                </div>
+                </fieldset>
+     </div>
+</body>
+</html>
